@@ -5,14 +5,16 @@
 
 import React from 'react';
 import TextField from './TextField';
+import FileInput from './FileInput';
 
 export default class CreateSpacePage extends React.Component {
     render() {
         return (
             <div className="create-space">
                 <TextField label="Name of Space" id="space-name"/>
-                <br/>
                 <TextField label="Location" id="location"/>
+                <TextField label="Description" id="description"/>
+                <FileInput/>
             </div>
         );
     }
