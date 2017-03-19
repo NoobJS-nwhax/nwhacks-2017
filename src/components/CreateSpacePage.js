@@ -13,6 +13,8 @@ export default class CreateSpacePage extends React.Component {
                 <TextField label="Name of Space" id="space-name"/>
                 <br/>
                 <TextField label="Location" id="location"/>
+                <br/>
+                <TextField label="Description" id="description"/>
             </div>
         );
     }
